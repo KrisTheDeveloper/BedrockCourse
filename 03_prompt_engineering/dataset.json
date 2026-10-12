@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon preparation with carbohydrate loading and high calorie intake for endurance training",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan contains 4-5 meals/snacks totaling 3000+ calories appropriate for marathon training",
+      "Includes high carbohydrate content (55-65% of total calories) for energy and glycogen loading",
+      "All meals are vegetarian and nut-free",
+      "Plan is presented in compact, single-day format with clear timing"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high calorie intake and carbohydrate loading, emphasizing energy density and recovery nutrition"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Muscle gain and strength improvement through weightlifting with emphasis on protein intake and recovery",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan includes 4-5 meals distributed throughout the day with protein-rich options at each meal",
+      "Total daily protein intake meets or exceeds 1.6-2.2g per kg of body weight (136-187g minimum)",
+      "Meals are timed strategically around training with pre and post-workout nutrition included",
+      "Plan is compact and concise (single day format, easily readable)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-training athlete (weightlifter) with specific macronutrient ratios prioritizing protein intake and muscle recovery across meal timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "183 cm",
+      "weight": "78 kg",
+      "goal": "Maintain energy and performance for tournament play with quick recovery between matches",
+      "restrictions": "Lactose intolerant, prefers no heavy meals 2 hours before competition"
+    },
+    "solution_criteria": [
+      "Meal plan includes 5-6 eating occasions (breakfast, snack, lunch, pre-match snack, dinner) with appropriate timing before/after competition",
+      "All meals are lactose-free and avoid heavy foods within 2 hours of match play",
+      "Includes hydration recommendations and quick-energy options suitable for between-set consumption",
+      "Provides balanced macronutrients (carbohydrates for energy, protein for recovery, healthy fats) appropriate for a 78kg athlete"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (tennis player) needing balanced nutrition with hydration considerations, quick energy options, and meals that don't cause digestive discomfort during competition"
+  }
+]
