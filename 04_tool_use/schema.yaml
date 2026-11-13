@@ -1,0 +1,21 @@
+toolSpec: 
+    name: get_current_datetime,
+    description: |
+        Retrieves the current date time formatted according to the specified format string.
+        This tool returns the systems current local date and time as a formatted string.
+        It should be used when the user needs to know the current date, time or both in a specific format.
+        The tool uses Python's datetime.now() function internally, so it will reflect the servers local
+        time zone settings. This tool does not support retrieving dates or times for different time zones
+        or historical/future dates.
+    inputSchema:
+        json:
+            type: object,
+            properities:
+                date_format:
+                    type: string
+                    description: |
+                        A string that specifies the format of the returned date and time, using Python's strftime format codes. 
+                        For example, '%Y-%m-%d' returns only the date as '2025-04-02', '%H:%M:%S' returns only the time as '14:30:45', 
+                        and the default '%Y-%m-%d %H:%M:%S' returns both as '2025-04-02 14:30:45'. 
+                        Use format codes like %Y (4-digit year), %m (month), %d (day), %H (hour), %M (minute), 
+                        and %S (second) to customize the output format.
